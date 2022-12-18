@@ -85,7 +85,7 @@ while running:
 #eatfood mechanic
     eaten = eat(foodX,foodY,snakeX,snakeY)
     if eaten:
-        foodX = random.randint(600,800)
+        foodX = random.randint(0,800)
         foodY = random.randint(0,600)
         score_val+= 1
         
